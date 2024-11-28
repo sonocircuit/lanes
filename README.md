@@ -13,6 +13,9 @@ lanes is a midi recorder and looper
 - hold K1: display options/shift
 - shift + K2 / K3: select options
 
+- goto parameters/edit > global settings to change the quantization options.
+  
+
 **grid:**
 
 - rows 1-7: lanes
