@@ -19,7 +19,7 @@ local lt = require 'lattice'
 local ms = require 'core/mods'
 local rf = include 'lib/lanes_reflection'
 local md = include 'lib/lanes_midi'
-local nb = include 'nb/lib/nb'
+local nb = include 'lib/nb/lib/nb'
 
 local m = midi.connect()
 local g = grid.connect()
