@@ -1,5 +1,8 @@
 # lanes
-lanes is a midi recorder and looper
+lanes is a midi looper
+
+record incoming midi notes or load a midi file to up to 7 lanes.
+output midi to any midi device or play internally via nb.
 
 ----
 
