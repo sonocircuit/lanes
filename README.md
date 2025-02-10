@@ -29,15 +29,15 @@ output midi to any midi device or play internally via nb.
   - key 15: `reset`
   - key 16: `all` / `metro viz`
 
-  - press a lane key to start playback. press a lane key to change position. press and hold a lane key and press and release a second lane key to set a loop.
-  - hold `rec` and a lane key to enable recording. press a lane key to disable recording. while recording press `reset`and a lane key to undo the last recording.
-  - hold `playback`and press a lane key to stop playback. press again to resume. hold `playback` and press `all` to stop all
-  - press an empty `snapshot` key to save a snapshot (playing tracks & loops). hold `reset` and a `snapshot` key to clear.
-  - hold `reset` and a lane key to reset the playback position. hold `reset` and press `all` to stop all.
+- press a lane key to start playback. press a lane key to change position. press and hold a lane key and press and release a second lane key to set a loop.
+- hold `rec` and a lane key to enable recording. press a lane key to disable recording. while recording hold `reset`and a lane key to undo the last recording.
+- hold `playback`and press a lane key to stop playback. press again to resume. hold `playback` and press `all` to stop all
+- press an empty `snapshot` key to save a snapshot (playing tracks & loops). hold `reset` and a `snapshot` key to clear.
+- hold `reset` and a lane key to reset the playback position. hold `reset` and press `all` to reset all playhead positions.
 
 **midi files:**
 
 - midi files live under `dust/code/lanes/midi_files/`
-- load midi files via smb.
+- add midi files via smb. load to a lane via UI.
 - file naming convention is: `my_filename_xxb.mid` xx represents the number of beats to auto-set the length (optional).
 
