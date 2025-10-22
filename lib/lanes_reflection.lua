@@ -145,6 +145,7 @@ end
 function reflection:undo()
   if next(self.event_prev) then
     self.event = deep_copy(self.event_prev)
+    self.event_prev = {}
   end
 end
 
